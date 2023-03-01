@@ -65,33 +65,119 @@
 
 
     <main>
-        <div class="home-main container">
+        <div class="home-main container flex-row">
             <div class="home-container row">
                 <div class="title-container col-12">
                     <h1 class="title">The Game<span>Hub</span></h1>
                 </div>
             </div>
             <div class="description-container row">
-                <p class="description col-12">Hello <span>Internaut</span>. If you just got here, I think you might be a retro-<span>gamer</span> like me, and as a retro-<span>gamer</span>, I'm pretty sure you'll like my little piece of the Internet, where I coded and uploaded some of my favorites retro-<span>games</span> (and maybe some day, some of my own...).</p>
+                <p class="description col-12">Hello <span>Internaut</span>. If you just got here, I think you might be a
+                    retro-<span>gamer</span> like me, and as a retro-<span>gamer</span>, I'm pretty sure you'll like my
+                    little piece of the Internet, where I coded and uploaded some of my favorites
+                    retro-<span>games</span> (and maybe some day, some of my own...).</p>
             </div>
             <div class="description-container row">
-                <p class="description col-12">Well dear friend... I hope you have fun playing, as I had when I built this web-app.</p>
+                <p class="description col-12">Well dear friend... I hope you have fun playing, as I had when I built
+                    this web-app.</p>
             </div>
             <div class="description-container row">
                 <p class="description col-12">Have <span>fun</span>, Internaut.</p>
             </div>
-            <div class="btn-container row">
-                <button class="gh-btn col-12"><a href="#">Browse <span>Games</span></a> </button>
-            </div>
         </div>
-        
+        <div class="btn-container">
+            <button class="gh-btn"><a href="#">Browse <span>Games</span></a> </button>
+        </div>
 
+        <!--BOOTSTRAP CARDS-->
+        <section class="home-games container">
+            <h3 class="title title2">Gam<span>es</span></h3>
+            <div class="d-flex justify-content-evenly flex-wrap">
+                <div class="card">
+                    <img src="../assets/images/project-icons/chess.png" class="card-img-top" alt="Chess Game Cover">
+                    <div class="card-body">
+                        <h5 class="card-title"><span>//</span>Chess</h5>
+                        <p class="card-text">
+                            <span> -</span>Master the game of strategy: Chess
+                        </p>
+                        <a href="./coming_soon.html" class="btn btn-primary">Coming Soon...</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="../assets/images/project-icons/snake-game.png" class="card-img-top"
+                        alt="Snake Game Cover">
+                    <div class="card-body">
+                        <h5 class="card-title"><span>//</span>Snake Game</h5>
+                        <p class="card-text"><span> -</span>Sneak to victory: Classic Snake Game</p>
+                        <a href="./coming_soon.html" class="btn btn-primary">Coming Soon...</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="../assets/images/project-icons/doom.jpg" class="card-img-top" alt="Doom Remake Cover">
+                    <div class="card-body">
+                        <h5 class="card-title"><span>//</span>Doom Remake</h5>
+                        <p class="card-text"><span> -</span>Raze Hell: Play Doom Now</p>
+                        <a href="./coming_soon.html" class="btn btn-primary">Coming Soon...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="home-news container">
+            <div class="news-title">
+                <h2 class="title title2">Blo<span>g</span></h2>
+            </div>
+
+            <div class="first-update">
+                <h3 class="subtitle">Episode <span>#1</span></h3>
+                <p class="description">Hey <span>Internaut</span> I hope you are doing fine...</p>
+                <p class="description">Today, <span>March 1st of 2023</span>, I started coding this website for you. I
+                    just started giving style to the site and coding everything correctly. The games are currently
+                    <span>under development</span>. But, I would say that this should be ready in a month or two. I'm
+                    also preparing the official <span>Docs</span> for this project.</p>
+                <p class="description">I really hope that this website becomes a place in which people can come around
+                    and play retro-<span>games</span> with their friends. </p>
+                <p class="description">Thinking about including <span>ChatGPT</span> to give some help with the games...
+                </p>
+            </div>
+
+            <div class="blog-btn">
+                <button class="blog-button"><a href="#">Read <span>more</span></a></button>
+            </div>
+        </section>
     </main>
 
 
 
-    <footer>
+    <footer class="text-center text-orange">
+        <!-- Grid container -->
+        <div class="container pt-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+            
+                <!-- Twitter -->
+                <a class="btn btn-link btn-floating btn-lg text-light m-1" href="#!" role="button"
+                    data-mdb-ripple-color="light"><i class="fab fa-twitter"></i></a>
+                <!-- Linkedin -->
+                <a class="btn btn-link btn-floating btn-lg text-light m-1" href="#!" role="button"
+                    data-mdb-ripple-color="light"><i class="fab fa-linkedin"></i></a>
+                <!-- Github -->
+                <a class="btn btn-link btn-floating btn-lg text-light m-1" href="#!" role="button"
+                    data-mdb-ripple-color="light"><i class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
 
+        <!-- Copyright -->
+        <div class="text-center text-light p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright:
+            <a class="text-light" href="https://mdbootstrap.com/">Game<span>Hub</span></a>
+        </div>
+        <!-- Copyright -->
     </footer>
 
 
