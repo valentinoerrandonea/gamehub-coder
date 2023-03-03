@@ -1,130 +1,202 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: black;
     font-family: Inconsolata;
-    color: white;;
+    color: white;
+    ;
 
 }
 
-a{
-    color: white;   ;
+a {
+    color: white;
+    ;
 }
 
-a:hover
-{
-    color: rgba(255,163,26);
+a:hover {
+    color: rgba(255, 163, 26);
     text-decoration: none;
 }
 
-span{
+span {
     color: black;
     font-weight: bolder;
-    background-color: rgba(255,163,26);
+    background-color: rgba(255, 163, 26);
     padding: 2px;
-    border: solid 1px rgba(255,163,26);
+    border: solid 1px rgba(255, 163, 26);
     border-radius: 5%;
 }
 
-span:hover{
-    box-shadow: 0px 5px 10px 0px rgba(255,163,26);
+span:hover {
+    box-shadow: 0px 5px 10px 0px rgba(255, 163, 26);
 }
 
-.span2{
-    color: rgba(255,163,26);
+.span2 {
+    color: rgba(255, 163, 26);
     background-color: transparent;
     border: none;
 }
 
 
-.span2:hover{
+.span2:hover {
     box-shadow: none;
 }
 
 
-.title{
+.title {
     font-size: 58px;
     font-weight: bold;
     margin-bottom: 3rem;
 }
 
-.description{
-    font-size: 24px;
+.description {
+    font-size: 22px;
     margin-bottom: 2rem;
 }
 
-.home-main{
+.home-main {
     margin-top: 3rem;
 }
 
-button{
+button {
     background-color: #070707;
-    border: solid 3px rgba(255,163,26);
-    box-shadow: 0px 5px 10px 0px rgba(255,163,26);
+    border: solid 3px rgba(255, 163, 26);
+    box-shadow: 0px 5px 10px 0px rgba(255, 163, 26);
     border-radius: 5%;
     font-size: 32px;
     font-weight: bold;
-    margin-bottom: 2rem;;
+    margin-bottom: 2rem;
+    ;
     padding: 1rem;
 }
 
-button:hover{
+button:hover {
     transform: translateY(-5px);
-    box-shadow: 0px 10px 20px 2px rgba(255,163,26);
-  }
+    box-shadow: 0px 10px 20px 2px rgba(255, 163, 26);
+}
 
-.title2{
+.title2 {
     margin-top: 5rem;
 }
 
-.btn-container{
+.btn-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-footer{
+footer {
     background-color: black;
     padding: 1rem;
-    border-top: solid 1px rgba(255,163,26);
+    border-top: solid 1px rgba(255, 163, 26);
     margin-top: 5rem
 }
 
-.card{
+.card {
     background-color: #070707;
     color: white;
-    border: solid 3px rgba(255,163,26);
-    box-shadow: 0px 5px 10px 0px rgba(255,163,26);
+    border: solid 3px rgba(255, 163, 26);
+    box-shadow: 0px 5px 10px 0px rgba(255, 163, 26);
     border-radius: 5%
 }
 
-.card-link{
-    border: solid 1px rgba(255,163,26);
-    box-shadow: 0px 5px 10px 0px rgba(255,163,26);
+.card-link {
+    border: solid 1px rgba(255, 163, 26);
+    box-shadow: 0px 5px 10px 0px rgba(255, 163, 26);
     padding: 5px;
 }
 
-.card-link:hover{
+.card-link:hover {
     transform: translateY(-5px);
-    box-shadow: 0px 10px 20px 2px rgba(255,163,26);
-  }
+    box-shadow: 0px 10px 20px 2px rgba(255, 163, 26);
+}
 
-  .card-title{
+.card-title {
     font-size: 24px;
-  }
+}
 
-  .card-text{
+.card-text {
     font-size: 18px;
-  }
+}
 
-#language-picker-select{
+#language-picker-select {
     background-color: #070707;
     color: white;
-    border: solid 1px rgba(255,163,26);
+    border: solid 1px rgba(255, 163, 26);
     padding: 5px;
     border-radius: 5%;
+}
+
+.docs-div {
+    margin-bottom: 4rem;
+    border-bottom: solid 1px rgba(255, 163, 26);
+    padding-bottom: 2rem;
+}
+
+
+.docs-div2 {
+    margin-bottom: 2.5rem;
+    margin-left: 3.5rem;
+    padding-bottom: 1.25rem;
+}
+
+.no-border{
+    border: none;
+}
+
+.subtitle {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.subtitle-main{
+    margin-top: 3rem;
+}
+
+.description2 {
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.docs-ul {
+    list-style: none;
+}
+
+.docs-ul li:before {
+    content: "•";
+    color: rgba(255, 163, 26);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em
+}
+
+.docs-ol {
+    list-style: none;
+    counter-reset: li
+}
+
+.docs-ol li {
+    counter-increment: li
+}
+
+.docs-ol li:before {
+    content: counter(li);
+    color: rgba(255, 163, 26);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1.5em;
+    margin-right: 0.5em;
+    text-align: right;
+    direction: rtl
+}
+
+.docs-ol,
+.docs-ul {
+    margin-left: 3rem;
+    font-size: 18px;
 }
