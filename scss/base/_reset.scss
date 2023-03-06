@@ -14,6 +14,10 @@ body {
         ;
     }
 
+    .a-text{
+        color: $main-color;
+    }
+
     span {
         color: black;
         font-weight: bolder;
@@ -49,4 +53,10 @@ span:hover {
 
 .span2:hover {
     box-shadow: none;
+}
+
+.a-text:hover{
+    color: $main-color;
+    font-weight: bolder;
+    text-decoration: underline;
 }
