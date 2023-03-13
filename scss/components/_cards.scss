@@ -1,20 +1,21 @@
 .card {
     background-color: #070707;
-    color: white;
-    border: solid 3px rgba(255, 163, 26);
-    box-shadow: 0px 5px 10px 0px rgba(255, 163, 26);
+    color: $text;
+    border: solid 3px $main-color;
+    box-shadow: 0px 5px 10px 0px $main-color;
     border-radius: 5%
 }
 
 .card-link {
-    border: solid 1px rgba(255, 163, 26);
-    box-shadow: 0px 5px 10px 0px rgba(255, 163, 26);
+    border: solid 2px $main-color;
+    border-radius: 5%;
+    box-shadow: 0px 5px 10px 0px $main-color;
     padding: 5px;
 }
 
 .card-link:hover {
     transform: translateY(-5px);
-    box-shadow: 0px 10px 20px 2px rgba(255, 163, 26);
+    box-shadow: 0px 10px 20px 2px $main-color;
 }
 
 .card-title {

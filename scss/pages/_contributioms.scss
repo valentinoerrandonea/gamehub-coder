@@ -4,7 +4,7 @@
     margin-bottom: 5%;
     width: 70%;
     border: 3px solid $main-color;
-    box-shadow: 0px 5px 10px 0px rgba(255, 163, 26);
+    box-shadow: 0px 5px 10px 0px $main-color;
 }
 .contact-form .form-control{
     border: 1.5px solid $main-color;
@@ -15,7 +15,7 @@
     text-align: center;
 }
 .contact-image img{
-    box-shadow: 0px 5px 10px 0px rgba(255, 163, 26);
+    box-shadow: 0px 5px 10px 0px $main-color;
     border-radius: 6rem;
     width: 11%;
     margin-top: -3%;
@@ -39,7 +39,7 @@
     padding: 1.5%;
     background: $main-color;
     font-weight: 600;
-    color: #000;
+    color: $background;
     cursor: pointer;
 }
 

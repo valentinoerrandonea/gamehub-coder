@@ -5,12 +5,12 @@
 }
 
 body {
-    background-color: black;
+    background-color: $background;
     font-family: Inconsolata;
-    color: white;
+    color: $text;
     
     a {
-        color: white;
+        color: $text;
         ;
     }
 
@@ -18,17 +18,17 @@ body {
         color: $main-color;
     }
 
-    span {
-        color: black;
+    span, .span3 {
+        color: $background;
         font-weight: bolder;
-        background-color: rgba(255, 163, 26);
+        background-color: $main-color;
         padding: 2px;
-        border: solid 1px rgba(255, 163, 26);
+        border: solid 1px $main-color;
         border-radius: 5%;
     }
 
     .span2 {
-        color: rgba(255, 163, 26);
+        color: $main-color;
         background-color: transparent;
         border: none;
     }
@@ -38,14 +38,14 @@ body {
 
 
 a:hover {
-    color: rgba(255, 163, 26);
+    color: $main-color;
     text-decoration: none;
 }
 
 
 
 span:hover {
-    box-shadow: 0px 5px 10px 0px rgba(255, 163, 26);
+    box-shadow: 0px 5px 10px 0px $main-color;
 }
 
 
